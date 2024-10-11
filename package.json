@@ -20,7 +20,7 @@
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.12.2",
     "web-vitals": "^2.1.4",
-    "homepage": "https://hungnq18.github.io/forU/"
+    "homepage": "https://hungnq18.github.io/ForU"
  },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,286 @@
+/* Toàn bộ trang */
+  .airplane-container {
+  text-align: center;
+  background-image: url('../img/bg.jpg'); /* Đường dẫn tới hình ảnh */
+  background-size: cover; /* Đảm bảo hình nền phủ hết trang */
+  background-position: center; /* Căn giữa hình nền */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+  height: 100vh; /* Chiều cao 100% viewport */
+  display: flex; /* Thay đổi display thành flex */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  height: 100vh; /* Để đầy chiều cao viewport */
+  position: relative; /* Cần thiết cho các phần tử tuyệt đối */
+    font-family: "Updock", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.buttons-container {
+  margin: 20px 0;
+}
+
+.help-button, .no-help-button, .takeoff-button {
+  background-color: #4CAF50; /* Màu xanh lá cây */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.help-button:hover, .no-help-button:hover, .takeoff-button:hover {
+  background-color: #45a049; /* Màu tối hơn khi hover */
+}
+
+.energy-container {
+  position: relative;
+  margin: 20px 0;
+}
+
+.energy-bar {
+  height: 20px;
+  background-color: #76c7c0; /* Màu năng lượng */
+  transition: width 0.5s;
+}
+
+.airplane {
+  position: absolute;
+  bottom: 50px; /* Cách đáy một chút */
+  transition: left 1s ease;
+}
+
+.airplane-icon {
+  width: 100px; /* Điều chỉnh kích thước máy bay */
+}
+
+.takeoff-button {
+  background-color: #FF5722; /* Màu cam */
+}
+
+.takeoff-button:hover {
+  background-color: #E64A19; /* Màu tối hơn khi hover */
+}
+
+.cute-note {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #FF69B4; /* Màu hồng */
+}
+
+.help-message {
+  margin-top: 20px;
+  font-size: 22px;
+  color: red; /* Màu đỏ cho dòng chữ giúp tôi với */
+}
+
+
+/* Phần máy bay và thanh năng lượng */
+.airplane-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff; /* Màu nền nhẹ nhàng */
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  margin-bottom: 20px;
+}
+
+/* Nút giúp */
+.help-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.help-button:hover {
+  transform: scale(1.05); /* Tăng kích thước nhẹ khi hover */
+}
+
+/* Nút không giúp */
+.no-help-button {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.no-help-button.moving {
+  position: absolute;
+  transition: left 0.5s ease, top 0.5s ease;
+}
+
+/* Nút cất cánh */
+.takeoff-button {
+  background-color: #ff9800;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.takeoff-button:hover {
+  transform: scale(1.05); /* Hiệu ứng hover */
+}
+
+/* Thanh năng lượng */
+.energy-container {
+  width: 100%;
+  max-width: 600px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 30px;
+  position: relative;
+}
+
+.energy-bar {
+  height: 100%;
+  background-color: #76ff03;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+/* Máy bay */
+.airplane {
+  width: 80px; 
+  height: auto;
+  position: absolute;
+  bottom: 30px; 
+  transition: left 1s ease, bottom 2s ease;
+}
+
+.airplane.fly-up {
+  bottom: 100vh; /* Khi máy bay bay lên */
+}
+
+/* Phi công */
+.airplane-icon {
+  width: 100%; 
+  height: auto;
+}
+
+/* Thông báo cute */
+.cute-note {
+  margin-top: 20px;
+  color: #333;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Dòng chữ "Giúp tôi với" */
+.help-message {
+  margin-top: 20px;
+  color: #ff0000;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.airplane-container {
+  position: relative; /* Để định vị máy bay và các thành phần bên trong */
+  overflow: hidden; /* Để ẩn các thành phần ngoài vùng hiển thị */
+}
+
+.energy-container {
+  position: relative; /* Để máy bay và thanh năng lượng được căn chỉnh đúng */
+  height: 50px; /* Chiều cao cho thanh năng lượng */
+  background-color: #eee; /* Màu nền cho thanh năng lượng */
+  border: 1px solid #000; /* Đường viền cho thanh năng lượng */
+}
+
+.energy-bar {
+  height: 100%; /* Đảm bảo chiều cao thanh năng lượng bằng chiều cao của container */
+  background-color: green; /* Màu thanh năng lượng */
+}
+
+.airplane {
+  position: absolute; /* Để máy bay có thể di chuyển tự do */
+  bottom: 0; /* Đặt máy bay ở đáy */
+  transition: left 1s ease, transform 1s ease; /* Hiệu ứng chuyển động cho máy bay */
+}
+
+.airplane.fly-up {
+  transform: translateY(-200px); /* Hiệu ứng bay lên */
+}
+
+.cute-note {
+  margin-top: 10px;
+  font-size: 30px; /* Kích thước chữ cho note dễ thương */
+}
+
+.help-message {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red; /* Màu chữ cho thông điệp giúp tôi */
+  font-size: 20px; /* Kích thước chữ lớn hơn */
+}
+
+.explosion {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px; /* Kích thước cho chữ nổ */
+  color: orange; /* Màu cho chữ nổ */
+}
+.fireworks-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.firework {
+  position: absolute;
+  bottom: 0;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  animation: explode 1s forwards;
+}
+
+@keyframes explode {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-100px) scale(2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-200px) scale(0);
+    opacity: 0;
+  }
+}

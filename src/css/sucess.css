@@ -1,0 +1,10 @@
+.success {
+  background-image: url('../img/Fighter Plane Animation (1).gif'); /* Đường dẫn tới hình ảnh */
+  background-size: cover; /* Đảm bảo hình nộ phủ hết trang */
+  background-position: center; /* Căn giữa hình nộ */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+  height: 100vh; /* Chiều cao 100% viewport */
+  display: flex; /* Thay đổi display không bội */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}

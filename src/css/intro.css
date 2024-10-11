@@ -1,0 +1,46 @@
+.bg {
+  background-image: url('../img/bg.jpg'); /* Đường dẫn tới hình ảnh */
+  background-size: cover; /* Đảm bảo hình nền phủ hết trang */
+  background-position: center; /* Căn giữa hình nền */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+  height: 100vh; /* Chiều cao 100% viewport */
+  display: flex; /* Thay đổi display thành flex */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+.intro{
+    font-family: "Updock", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%; /* Thay đổi width thành 100% */
+  max-width: 600px; /* Giới hạn chiều rộng tối đa */
+  margin: 20px; /* Thêm khoảng cách từ các cạnh */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+  line-height: 1.5;
+  background-color: rgba(243, 134, 134, 0.8);
+}
+button {
+  background-color: #ff4c4c; /* Màu nền của nút */
+  color: white; /* Màu chữ */
+  border: none; /* Không viền */
+  padding: 15px 30px; /* Tăng kích thước padding để nút to hơn */
+  font-size: 1.25rem; /* Kích thước chữ trên nút */
+  border-radius: 5px; /* Bo góc */
+  cursor: pointer; /* Con trỏ chỉ tay khi hover */
+  transition: background-color 0.3s ease; /* Hiệu ứng hover */
+}
+
+button:hover {
+  background-color: #ff1a1a; /* Màu nền khi hover */
+}

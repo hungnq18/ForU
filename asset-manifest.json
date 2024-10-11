@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6d0f44e.css",
-    "main.js": "/static/js/main.ee74c007.js",
-    "static/js/453.bc6e0734.chunk.js": "/static/js/453.bc6e0734.chunk.js",
-    "static/media/bg.mp3": "/static/media/bg.7beb5d67c90aa9aca054.mp3",
-    "static/media/Fighter Plane Animation (1).gif": "/static/media/Fighter Plane Animation (1).798d2dd03f2509625630.gif",
-    "static/media/applause.mp3": "/static/media/applause.24c178569679bee59118.mp3",
-    "static/media/bg.jpg": "/static/media/bg.41492d89d2b8107693be.jpg",
-    "static/media/airplane_pilot.png": "/static/media/airplane_pilot.eba5708452de91bc69fd.png",
-    "static/media/explosion.mp3": "/static/media/explosion.0d7cc9357b11c5bd6b7a.mp3",
-    "static/media/click.mp3": "/static/media/click.681d1519e32a61ffa304.mp3",
-    "index.html": "/index.html",
-    "main.b6d0f44e.css.map": "/static/css/main.b6d0f44e.css.map",
-    "main.ee74c007.js.map": "/static/js/main.ee74c007.js.map",
-    "453.bc6e0734.chunk.js.map": "/static/js/453.bc6e0734.chunk.js.map"
+    "main.css": "/forcrush/static/css/main.0dc3bdae.css",
+    "main.js": "/forcrush/static/js/main.e2c473de.js",
+    "static/js/453.bc6e0734.chunk.js": "/forcrush/static/js/453.bc6e0734.chunk.js",
+    "static/media/bg.mp3": "/forcrush/static/media/bg.7beb5d67c90aa9aca054.mp3",
+    "static/media/Fighter Plane Animation (1).gif": "/forcrush/static/media/Fighter Plane Animation (1).798d2dd03f2509625630.gif",
+    "static/media/applause.mp3": "/forcrush/static/media/applause.24c178569679bee59118.mp3",
+    "static/media/bg.jpg": "/forcrush/static/media/bg.41492d89d2b8107693be.jpg",
+    "static/media/airplane_pilot.png": "/forcrush/static/media/airplane_pilot.eba5708452de91bc69fd.png",
+    "static/media/explosion.mp3": "/forcrush/static/media/explosion.0d7cc9357b11c5bd6b7a.mp3",
+    "static/media/click.mp3": "/forcrush/static/media/click.681d1519e32a61ffa304.mp3",
+    "index.html": "/forcrush/index.html",
+    "main.0dc3bdae.css.map": "/forcrush/static/css/main.0dc3bdae.css.map",
+    "main.e2c473de.js.map": "/forcrush/static/js/main.e2c473de.js.map",
+    "453.bc6e0734.chunk.js.map": "/forcrush/static/js/453.bc6e0734.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6d0f44e.css",
-    "static/js/main.ee74c007.js"
+    "static/css/main.0dc3bdae.css",
+    "static/js/main.e2c473de.js"
   ]
 }
